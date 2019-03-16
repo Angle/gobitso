@@ -10,6 +10,7 @@ This is API is being used in production, even thought at the moment it's missing
 until we cover all of the official API.
 
 ## Upcoming Features
+- [ ] Place Limit and Market orders.
 - [ ] WebSocket Diff-Order channel multiplexer, with support for persistent connections and auto-recovery.
 
 ## How to Use
@@ -210,5 +211,5 @@ func main() {
   some constants are currently hardcoded in two files: `currency.go` and `book.go`. I'll try to keep it up-to-date, but feel
   free to send a PR with any new currencies or books.
 
-### About
+## About
 Built by [edmundofuentes](https://github.com/edmundofuentes) for [Angle](https://www.angle.mx).
